@@ -24,5 +24,5 @@
 ## 截图
 
 ![](https://github.com/yautah/wx_nav_bar/blob/master/snapshots/1.png?raw=true)
-![](https://github.com/yautah/wx~nav_bar/blob/master/snapshots/2.png?raw=true)
+![](https://github.com/yautah/wx_nav_bar/blob/master/snapshots/2.png?raw=true)
 ![](https://github.com/yautah/wx_nav_bar/blob/master/snapshots/3.png?raw=true)
