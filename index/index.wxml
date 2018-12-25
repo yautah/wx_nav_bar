@@ -1,0 +1,11 @@
+<navbar theme="dark"
+background-color="#7289DA"
+backEnable
+backProxy
+homeEnable 
+bind:onNavigateBack="handleNavigateBack"
+title="小拼課"></navbar>
+
+<view class='main' style="{{'top:' + navigationBarHeight}}">
+  <text>Hello Wechat!</text>
+</view>

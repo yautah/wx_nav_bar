@@ -1,0 +1,16 @@
+<view class="navbar" style="height:{{navigationBarHeight}}px;background-color:{{backgroundColor}}">
+  <view style="height: {{statusBarHeight}}px"></view>
+  <view class='title-container'>
+    <view wx:if="{{ backEnable || homeEnable }}" class='capsule' style="border-color: {{theme=='light' ? 'transparent' : '#444'}}">
+
+      <view wx:if="{{backEnable}}" bindtap='back' style="color: {{theme=='light' ? '#000' : '#fff'}}" class="iconfont icon-fanhui" />
+
+      <block wx:if="{{homeEnable}}">
+        <view class="divider" style="background-color: {{theme=='light' ? '#999' : '#bbb'}}" />
+
+        <view bindtap='backHome' style="color: {{theme=='light' ? '#000' : '#fff'}}" class="iconfont icon-shouye" />
+      </block>
+    </view>
+    <view class='title'>{{title}}</view>
+  </view>
+</view>
